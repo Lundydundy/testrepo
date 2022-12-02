@@ -1,0 +1,65 @@
+.body{
+    margin: auto;
+    width: 50%;
+    text-align: center;   
+}
+
+.div{
+    height: 48px;
+    padding: 0%;
+    text-align: right;
+}
+
+.button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+img{
+    height: 100px;
+}
+
+
+.searchbar{
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    height: 30px;
+    width: 70%;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+#adsearch{
+    color: #d93025;
+    font-size: 20px;
+    font-family: arial,sans-serif;
+}
+
+#adsearchbut{
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
