@@ -7,11 +7,11 @@
     </head>
     <body>
         <div class="div">
-            <a href="index.html"><img style="float: left; height: 60%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" alt="googlelogo"/></a>  
+            <a href="index.html"><img style="float: left; width: 100%; max-width: 100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" alt="googlelogo"/></a>  
             <a href="index.html">Search</a>
             <a href="image.html">Images</a>
         </div>
-        <div style=" margin-top: 20px;">
+        <div style=" margin-top: 40px;">
             <label id="adsearch" style="margin-left: 20px;">Advanced Search</label> 
         </div>
         <div style="border-bottom: solid #ccc; border-width: 1px; margin-top: 40px;">
@@ -19,27 +19,27 @@
         <form method="GET" action="https://www.google.com/search">
             <div style="margin-top: 20px">
                 <label style="font-family: arial,sans-serif; margin-left: 20px;">Find Pages With</label> 
-                <span style="margin-left: 45%; font-family: arial,sans-serif;">To do this in the search box.</span>
+                <span class="hide" style="margin-left: 45%; font-family: arial,sans-serif;">To do this in the search box.</span>
             </div>
             <div style="margin-top: 50px;">
-                <label style="font-family: arial,sans-serif; margin-left: 20px; float: left;">all these words:</label>
-                <input style="margin-left: 10%; width: 35%; float: left;" type="text" name="as_q">
-                <label style="font-family: arial,sans-serif; margin-left: 4.5%; font-size: 12px;">Type the important words: tri-colour rat terrier</label>
+                <label style="width: 200px; font-family: arial,sans-serif; margin-left: 20px; float: left;">all these words:</label>
+                <input class="input" style="width: 35%;" type="text" name="as_q">
+                <span class="hide" style="font-family: arial,sans-serif; margin-left: 4.5%; font-size: 12px;">Type the important words: tri-colour rat terrier</span>
             </div>
             <div style="margin-top: 50px;">
-                <label style="font-family: arial,sans-serif; margin-left: 20px;">this exact word or phrase:</label>
-                <input style="margin-left: 5%; width: 35%;" type="text" name="as_epq">
-                <label style="font-family: arial,sans-serif; margin-left: 4.5%; font-size: 12px;">Put exact words in quotes: "rat terrier"</label>
+                <label style="width: 200px; font-family: arial,sans-serif; margin-left: 20px; float: left;">this exact word or phrase:</label>
+                <input class="input" style="width: 35%; " type="text" name="as_epq">
+                <label class="hide" style="font-family: arial,sans-serif; margin-left: 4.5%; font-size: 12px;">Put exact words in quotes: "rat terrier"</label>
             </div>
             <div style="margin-top: 50px;">
-                <label style="font-family: arial,sans-serif; margin-left: 20px;">any of these words:</label>
-                <input style="margin-left: 8%; width: 35%;" type="text" name="as_oq">
-                <label style="font-family: arial,sans-serif; margin-left: 4.5%; font-size: 12px;">Type OR between all the words you want: miniature OR standard</label>
+                <label style="width: 200px; font-family: arial,sans-serif; margin-left: 20px; float: left;">any of these words:</label>
+                <input class="input" style="width: 35%;" type="text" name="as_oq">
+                <label class="hide" style="font-family: arial,sans-serif; margin-left: 4.5%; font-size: 12px;">Type OR between all the words you want: miniature OR standard</label>
             </div>
             <div style="margin-top: 50px;">
-                <label style="font-family: arial,sans-serif; margin-left: 20px;">none of these words:</label>
-                <input style="margin-left: 7.3%; width: 35%;" type="text" name="as_eq">
-                <label style="font-family: arial,sans-serif; margin-left: 4.5%; font-size: 12px;">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</label>
+                <label style="width: 200px; font-family: arial,sans-serif; margin-left: 20px; float: left;">none of these words:</label>
+                <input class="input" style="width: 35%;" type="text" name="as_eq">
+                <label class="hide" style="font-family: arial,sans-serif; margin-left: 4.5%; font-size: 12px;">Put a minus sign just before words that you don't want:<span style="font-size: 11px; font-family: monospace;">-rodent, -"Jack Russell"</span></label>
             </div>
             <input id="adsearchbut" class="button" autocomplete="off" type="submit" value="Google Search" style="margin-top: 20px; float: right; margin-right: 65%;"></input>
         </form>
